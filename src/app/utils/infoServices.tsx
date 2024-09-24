@@ -30,7 +30,15 @@ type typeServices={
         urls:[salle_bain1,salle_bain2,salle_bain3,] 
           
 
-        }
+        },
+
+        {id:3,
+            title:'salle de bain',
+            desc:'Qu’elle soit petite ou grande, une salle de bain est un élément clé d’une propriété. Confiez-nous la rénovation de votre salle de bain, salle d’eau, douche de tout genre, sauna sec ou humide, douche vapeur et plus encore! Nous sommes là pour vous offrir un produit de qualité et exécuté selon les plus hauts standards de qualité.',
+            urls:[salle_bain1,salle_bain2,salle_bain3,] 
+              
+    
+            }
    
 
 ]
