@@ -1,6 +1,6 @@
 import image_cuisine1 from '../../public/images/Cuisine/cuisine1.jpg'
 import image_cuisine2 from '../../public/images/Cuisine/cuisine2.jpg'
-import image_cuisine3 from '../../public/images/cuisine/cuisine3.jpg'
+import image_cuisine3 from '../../public/images/Cuisine/cuisine3.jpg'
 import salle_bain1 from '../../public/images/Salle_de_bain/salle_bain1.jpg'
 import salle_bain2 from '../../public/images/Salle_de_bain/salle_bain2.jpg'
 import salle_bain3 from '../..//public/images/Salle_de_bain/salle_bain3.jpg'
