@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.slick-dots li button:before {
+ 
+  content: "•";
+  font-size: 10px !important;
+  opacity: .25;
+  top: -30px !important;
+ 
+}
+
+.slick-dots li button:before, .slick-dots li.slick-active button:before {
+  color:#f0b51d !important;
+}
+
+/* :root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+} */
