@@ -31,7 +31,7 @@ const arrowRef=useRef();
           
           {
              images.map((url,index)=>(
-              <div key={index} className='w-full h-80 border-0 border-solid border-yellow-600 rounded-2xl'>
+              <div key={index} className='w-full h-80 border-0 border-solid border-yellow-600 '>
                   <Image className='w-full h-full object-cover ' src={url} alt='image_1' />
                </div>
 
