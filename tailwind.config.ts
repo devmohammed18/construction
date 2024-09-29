@@ -1,3 +1,4 @@
+import { Poppins } from "next/font/google";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -29,6 +30,13 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+   fontFamily:{
+        roboto:['var(--font-roboto)'],
+        Poppins:['var(--font-poppins)'],
+        open_sans:['var(--font-open_sans)']
+
+   }
+
     },
   },
   plugins: [],
