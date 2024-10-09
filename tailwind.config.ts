@@ -26,6 +26,9 @@ const config: Config = {
         '2xl': {'min': '1536px'},
         // => @media (min-width: 1536px) { ... }
       },
+      backgroundImage: {
+        'image-contact': "url('/images/contact/image-contact.jpg')",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

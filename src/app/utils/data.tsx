@@ -42,7 +42,10 @@ type typeData={
             urls:[brique1,brique2,brique3,brique4] 
               
     
-            }
+            },
+
+            
+
    
 
 ]

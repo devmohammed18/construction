@@ -18,26 +18,31 @@ const [toggle,setToggle]=useState<boolean>(true);
             
              style={{clipPath:!toggle?'polygon(0 0, 100% 0, 100% 100%, 0% 100%)':'',}}
             >
-                <div onClick={()=>setToggle(true)} className='sm:gap-0 md:gap-0 sm:flex-col sm:items-center md:flex-col md:items-center flex flex-row text-xl text-white gap-5 capitalize'>
+                <div  className='sm:gap-0 md:gap-0 sm:flex-col sm:items-center md:flex-col md:items-center flex flex-row text-xl text-white gap-5 capitalize'>
                     <div className='sm:border sm:border-solid sm:border-yellow-600 sm:w-full sm:p-3 sm:text-center sm:hover:bg-yellow-600 sm:cursor-pointer sm:transition-all sm:duration-700 sm:shadow-md
                                     md:border md:border-solid md:border-yellow-600 md:w-full md:p-3 md:text-center md:hover:bg-yellow-600 md:cursor-pointer md:transition-all md:duration-700' >
-                       <Link  className=' sm:hover:border-transparent md:hover:border-transparent transition-all ease-in-out  duration-700 border-b-solid border-b-2 border-transparent  hover:text-red-700 hover:border-b-red-700  ' href='/'> accueil  </Link>
+                       <Link onClick={()=>setToggle(true)} className=' sm:hover:border-transparent md:hover:border-transparent transition-all ease-in-out  duration-700 border-b-solid border-b-2 border-transparent  hover:text-red-700 hover:border-b-red-700  ' href='/'> accueil  </Link>
                     </div>
 
-                    <div onClick={()=>setToggle(true)} className='sm:border sm:border-solid sm:border-yellow-600 sm:w-full sm:p-3 sm:text-center sm:hover:bg-yellow-600 sm:cursor-pointer sm:transition-all sm:duration-700 sm:shadow-md
+                    <div  className='sm:border sm:border-solid sm:border-yellow-600 sm:w-full sm:p-3 sm:text-center sm:hover:bg-yellow-600 sm:cursor-pointer sm:transition-all sm:duration-700 sm:shadow-md
                                     md:border md:border-solid md:border-yellow-600 md:w-full md:p-3 md:text-center md:hover:bg-yellow-600 md:cursor-pointer md:transition-all md:duration-700' >
-                       <Link  className='sm:hover:border-transparent md:hover:border-transparent transition-all ease-in-out duration-700  border-b-solid border-b-2 border-transparent  hover:text-red-700 hover:border-b-red-700' href='/services'> services</Link>
+                       <Link onClick={()=>setToggle(true)} className='sm:hover:border-transparent md:hover:border-transparent transition-all ease-in-out duration-700  border-b-solid border-b-2 border-transparent  hover:text-red-700 hover:border-b-red-700' href='/services'> services</Link>
                     </div> 
 
-                    <div onClick={()=>setToggle(true)} className='sm:border sm:border-solid sm:border-yellow-600 sm:w-full sm:p-3 sm:text-center sm:hover:bg-yellow-600 sm:cursor-pointer sm:transition-all sm:duration-700 sm:shadow-md
+                    <div  className='sm:border sm:border-solid sm:border-yellow-600 sm:w-full sm:p-3 sm:text-center sm:hover:bg-yellow-600 sm:cursor-pointer sm:transition-all sm:duration-700 sm:shadow-md
                                     md:border md:border-solid md:border-yellow-600 md:w-full md:p-3 md:text-center md:hover:bg-yellow-600 md:cursor-pointer md:transition-all md:duration-700'>
-                       <Link  className='sm:hover:border-transparent md:hover:border-transparent transition-all ease-in-out duration-700  border-b-solid border-b-2 border-transparent  hover:text-red-700 hover:border-b-red-700 ' href='/projets'> projets</Link>
+                       <Link onClick={()=>setToggle(true)}  className='sm:hover:border-transparent md:hover:border-transparent transition-all ease-in-out duration-700  border-b-solid border-b-2 border-transparent  hover:text-red-700 hover:border-b-red-700 ' href='/projets'> projets</Link>
                     </div>
                     
-                    <div onClick={()=>setToggle(true)} className='sm:border sm:border-solid sm:border-yellow-600 sm:w-full sm:p-3 sm:text-center sm:hover:bg-yellow-600 sm:cursor-pointer sm:transition-all sm:duration-700 sm:shadow-md
+                    <div  className='sm:border sm:border-solid sm:border-yellow-600 sm:w-full sm:p-3 sm:text-center sm:hover:bg-yellow-600 sm:cursor-pointer sm:transition-all sm:duration-700 sm:shadow-md
                                     md:border md:border-solid md:border-yellow-600 md:w-full md:p-3 md:text-center md:hover:bg-yellow-600 md:cursor-pointer md:transition-all md:duration-700'>
-                       <Link  className='sm:hover:border-transparent md:hover:border-transparent transition-all ease-in-out duration-700  border-b-solid border-b-2 border-transparent  hover:text-red-700 hover:border-b-red-700 ' href='/contact'> contact</Link>
+                       <Link onClick={()=>setToggle(true)} className='sm:hover:border-transparent md:hover:border-transparent transition-all ease-in-out duration-700  border-b-solid border-b-2 border-transparent  hover:text-red-700 hover:border-b-red-700 ' href='/contact'> contact</Link>
                     </div>
+
+                    {/* <div  className='sm:border sm:border-solid sm:border-yellow-600 sm:w-full sm:p-3 sm:text-center sm:hover:bg-yellow-600 sm:cursor-pointer sm:transition-all sm:duration-700 sm:shadow-md
+                                    md:border md:border-solid md:border-yellow-600 md:w-full md:p-3 md:text-center md:hover:bg-yellow-600 md:cursor-pointer md:transition-all md:duration-700'>
+                       <Link onClick={()=>setToggle(true)}  className='sm:hover:border-transparent md:hover:border-transparent transition-all ease-in-out duration-700  border-b-solid border-b-2 border-transparent  hover:text-red-700 hover:border-b-red-700 ' href='/test'> testMotion</Link>
+                    </div> */}
                    
                 </div>
             </div>
