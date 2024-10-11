@@ -12,6 +12,9 @@ import { div } from 'framer-motion/client';
 function projets() {
 
   const [zome,setZome]=useState<boolean>(false)
+ 
+ //-----------------------------------------------------------------
+
   const [show,setShow]=useState<any>()
   const [selecIdImage,setSelectIdImage]=useState<number>(1)
   const [filterTitle,setFiltreTitle]=useState<string>('')
@@ -70,19 +73,19 @@ const fZome=()=>{
 
         <div className='w-full h-screen box-border flex flex-col items-center mb-10 '>
 
-            <div className= 'sm:h-1/2 w-full h-3/4 border-2 box-border border-solid border-red-700 bg-black '>
+            <div className= 'sm:h-1/2 w-full h-3/4 border-0 box-border border-solid border-red-700 bg-black '>
                 
-                <Image className='w-full h-full border border-solid border-purple-700'  src={image_hero_projets} alt='imge hero projets'/>
+                <Image className='w-full h-full border-0 border-solid border-purple-700'  src={image_hero_projets} alt='imge hero projets'/>
             
                 <motion.div 
                     variants={variantsBannerParents}
                     initial='hidden'
                     animate='visible' 
                     onAnimationComplete={handlerChildren}
-                    className='sm:w-full  w-2/5 h-3/4 border border-solid border-green-700 flex justify-center bg-slate-950 absolute top-0 left-0 opacity-40'>
+                    className='sm:w-full sm:h-2/4 w-2/5 h-3/4 border-0 border-solid border-green-700 flex justify-center bg-slate-950 absolute top-0  left-0 opacity-40'>
                     {childrenVisible && <motion.h1 
                         variants={variantsBannerChildrens}
-                        className='sm:top-1/4 text-4xl text-white absolute top-1/2 font-open_sans font-bold capitalize ' >nos projets</motion.h1>}
+                        className=' text-4xl text-white absolute top-1/2 font-open_sans font-bold capitalize ' >nos projets</motion.h1>}
                 </motion.div>
             </div> 
 
@@ -100,7 +103,8 @@ const fZome=()=>{
                      
                        <motion.li  key={id} 
                              variants={variantsBannerChildrens}
-                              onClick={()=>{setFiltreTitle(title) ;setSelectIdImage(id);; handelScroll() }}  className='text-2xl font-roboto  capitalize p-4  border-b-2 border-b-solid border-b-transparent hover:border-b-[#f0b51d] hover:text-[#f0b51d]'
+                              onClick={()=>{setFiltreTitle(title) ;setSelectIdImage(id); handelScroll() }}  
+                              className='text-2xl font-roboto  capitalize p-4  border-b-2 border-b-solid border-b-transparent hover:border-b-[#f0b51d] hover:text-[#f0b51d]'
                                 style={{color:selecIdImage===id? '#f0b51d':'' ,  borderBottom:selecIdImage===id? '2px solid #f0b51d':'' }}> {title} 
                          </motion.li> 
 
@@ -178,12 +182,15 @@ const fZome=()=>{
 
               {/* <div className='object-cover transition-transform duration-300 transform top-0 bottom-0 left-0 right-0 w-full h-[600px] opacity-100 absolute '> */}
               {zome && (<motion.div 
-                           initial={{ opacity: 0,}}
-                           animate={{ opacity: 1 ,rotate:[10,25,25,0],borderRadius:["10%","10%","50%","10%"],transition:{duration:1}}}
-                           exit={{ opacity: 0 }}  
+                           initial={{ opacity: 0,scale:0 }}
+                           animate={{ opacity: 1 ,scale:1,borderRadius:["10%","10%","50%","10%"],transition:{duration:1}}}
+                           exit={{ opacity: 0,scale:0 }}  
+                         
+
+
                      className=' w-4/5 h-[450px] -top-10  transform relative bg-slate-500 '>
                        <span onClick={()=>setZome(false)} className='  text-red-600 text-3xl top-5 right-5 absolute  '><LiaTimesCircleSolid /></span>
-                      <Image className='w-full h-full z-20 '  src={show} alt='' />
+                      <Image className='w-full h-full  z-20 '  src={show}   alt=''  />
                   </motion.div> ) }    
               
       

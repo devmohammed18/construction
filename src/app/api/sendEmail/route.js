@@ -32,7 +32,7 @@ export async function POST(request) {
     text: message, // Plain text body
     html: `<h1>name  :${nom}<h1/><br/>
            <h1>Email :${email}<h1/><br/>
-           <h1>Adress :${telephone}}<h1/><br/>
+           <h1>Telephone :${telephone}}<h1/><br/>
            <h1>Adress :${adress}<h1/><br/>
            <h1>object: ${objet}<h1/><br/><br/>
            <p>Message: ${message}</p>`, // HTML body content

@@ -41,8 +41,7 @@ type typeData={
             desc:'L art de la pose et la qualité de notre service font de Briques & Cie la référence. Nous offrons des projets clé en main.  Notre équipe professionnelle peut vous aider à réaliser vos projets.',
             urls:[brique1,brique2,brique3,brique4] 
               
-    
-            },
+      },
 
             
 
