@@ -1,5 +1,5 @@
 .hedear{
-background-color:#f0b51d;
+background-color:var(--primary-color);
 
 height:70px;
 position: fixed;
@@ -25,7 +25,7 @@ z-index: 100;
         right:0px;
         width: 100%;
         height: 100vh;
-        background-color: #f0b51d;
+        background-color: var(--primary-color);
          /* clip-path:polygon(0 0, 100% 0, 100% 100%, 0% 100%);  */
          clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);  
         /* clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%); */

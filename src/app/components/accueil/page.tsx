@@ -2,7 +2,7 @@
 import React from 'react'
 import Image from 'next/image'
 import '../accueil/accueil.css'
-import { variantsParents,variantsChildens } from '../motion/animation'
+import { variantsParents,variantsChildens } from '../../utils/motion/animation'
 import { motion } from 'framer-motion'
  import image_accueil from '@/public/images/accueil/accueil1.jpg'
  

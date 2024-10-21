@@ -1,4 +1,5 @@
 
+
 import Footer from "./components/footer/footer";
 import Hedear from "./components/hedear/hedear";
 import "./globals.css";
@@ -36,9 +37,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${roboto.variable} ${poppins.variable} ${open_sans.variable}`} >
+     
       <body>
+        
         <Hedear/>
+         
         {children}
+       
+
         <Footer/>
        
       </body>

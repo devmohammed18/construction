@@ -1,19 +1,15 @@
-import image_cuisine1 from '../../public/images/Cuisine/cuisine1.jpg'
-import image_cuisine2 from '../../public/images/Cuisine/cuisine2.jpg'
-import image_cuisine3 from '../../public/images/Cuisine/cuisine3.jpg'
-import salle_bain1 from '../../public/images/Salle_de_bain/salle_bain1.jpg'
-import salle_bain2 from '../../public/images/Salle_de_bain/salle_bain2.jpg'
-import salle_bain3 from '../..//public/images/Salle_de_bain/salle_bain3.jpg'
-import brique1 from '../../public/images/pose_briques/brique1.jpg'
-import brique2 from '../../public/images/pose_briques/brique2.jpg'
-import brique3 from '../../public/images/pose_briques/brique3.jpg'
-import brique4 from '../../public/images/pose_briques/brique4.jpg'
-type typeData={
-    id:number,
-    title:string,
-    desc:string,
-    urls:any[]
-}
+import image_cuisine1 from '../../../public/images/Cuisine/cuisine1.jpg'
+import image_cuisine2 from '../../../public/images/Cuisine/cuisine2.jpg'
+import image_cuisine3 from '../../../public/images/Cuisine/cuisine3.jpg'
+import salle_bain1 from '../../../public/images/Salle_de_bain/salle_bain1.jpg'
+import salle_bain2 from '../../../public/images/Salle_de_bain/salle_bain2.jpg'
+import salle_bain3 from '../../..//public/images/Salle_de_bain/salle_bain3.jpg'
+import brique1 from '../../../public/images/pose_briques/brique1.jpg'
+import brique2 from '../../../public/images/pose_briques/brique2.jpg'
+import brique3 from '../../../public/images/pose_briques/brique3.jpg'
+import brique4 from '../../../public/images/pose_briques/brique4.jpg'
+
+import { typeData } from '../type/type'
 
  export const data:typeData[]=[
 
@@ -39,7 +35,7 @@ type typeData={
         {id:3,
             title:'pose de briques',
             desc:'L art de la pose et la qualité de notre service font de Briques & Cie la référence. Nous offrons des projets clé en main.  Notre équipe professionnelle peut vous aider à réaliser vos projets.',
-            urls:[brique1,brique2,brique3,brique4] 
+            urls:[brique1,brique2,brique3,brique4,brique1,brique2,brique3,brique4] 
               
       },
 

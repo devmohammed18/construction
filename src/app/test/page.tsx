@@ -1,7 +1,7 @@
 'use client'
 import React, { useEffect, useRef } from 'react'
 import { motion ,useScroll,useAnimation,useInView ,useTransform} from 'framer-motion'
-import { variantsSection,variantsImage,varianctsup,variantsDown,variantsKeyFrames, variantsTextright, variantsTextleft } from '../components/motion/motion'
+import { variantsSection,variantsImage,varianctsup,variantsDown,variantsKeyFrames, variantsTextright, variantsTextleft } from '../utils/motion/motion'
 function testMotion() {
  const {scrollYProgress:complete}=useScroll()
  const refContainte=useRef<any>(null)

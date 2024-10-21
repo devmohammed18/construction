@@ -3,7 +3,12 @@
 @tailwind utilities;
 
 
+:root{
 
+  --primary-color:#f0b51d;
+  --secondary-color: #ffffff;
+  
+}
 .slick-dots li button:before {
  
   content: "•";
@@ -15,6 +20,18 @@
 
 .slick-dots li button:before, .slick-dots li.slick-active button:before {
   color:#f0b51d !important;
+}
+
+.fixed-height{
+
+min-height: calc(100vh - 116px);
+  
+
+}
+
+.done{
+
+  list-style-type: '😊';
 }
 
 /* :root {
