@@ -36,7 +36,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${roboto.variable} ${poppins.variable} ${open_sans.variable}`} >
+    <html lang="en" className={`${roboto.variable} ${poppins.variable} ${open_sans.variable} border-0 border-solid border-yellow-500 `} >
      
       <body>
         

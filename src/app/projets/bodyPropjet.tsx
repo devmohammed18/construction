@@ -69,8 +69,8 @@ function BodyPropjet() {
                         variants={variantsListChildrens}
                         
                         onClick={()=>{setFiltreTitle(title) ;setSelectIdImage(id); handelScroll() }}  
-                        className='text-2xl  font-roboto  capitalize p-4  border-b-4 border-b-solid border-b-transparent hover:border-b-[var(--treed-color)] hover:text-[var(--treed-color)] hover:text-2xl '
-                          style={{ color:selecIdImage===id? 'var(--treed-color)':'' ,  borderBottom:selecIdImage===id? '4px solid var(--treed-color)':'' }}> {title} 
+                        className='text-2xl font-[700]  capitalize p-4  border-b-4 border-b-solid border-b-transparent hover:border-b-[var(--treed-color)] hover:text-[var(--treed-color)] hover:font-[700]  '
+                          style={{ color:selecIdImage===id? 'var(--treed-color)':'' ,  borderBottom:selecIdImage===id? '4px solid var(--treed-color)':'',fontWeight:'700' }}> {title} 
                     </motion.li> 
 
                   )) }            
