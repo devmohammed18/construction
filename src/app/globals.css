@@ -2,12 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+/*#f0b51d;*/
 
 :root{
-
-  --primary-color:#f0b51d;
-  --secondary-color: #ffffff;
   
+  --primary-color:#000;
+  --secondary-color: #ffffff;
+  --treed-color:#ed1c24;
+  --success-color:#4BB543;
 }
 .slick-dots li button:before {
  
@@ -19,7 +21,7 @@
 }
 
 .slick-dots li button:before, .slick-dots li.slick-active button:before {
-  color:#f0b51d !important;
+  color:#ed1c24 !important;
 }
 
 .fixed-height{

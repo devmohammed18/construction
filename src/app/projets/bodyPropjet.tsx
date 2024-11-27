@@ -69,7 +69,7 @@ function BodyPropjet() {
                         variants={variantsListChildrens}
                         
                         onClick={()=>{setFiltreTitle(title) ;setSelectIdImage(id); handelScroll() }}  
-                        className='text-2xl  font-roboto  capitalize p-4  border-b-4 border-b-solid border-b-transparent hover:border-b-[#f0b51d] hover:text-[#f0b51d]  '
+                        className='text-2xl  font-roboto  capitalize p-4  border-b-4 border-b-solid border-b-transparent hover:border-b-[var(--primary-color)] hover:text-[var(--primary-color)]  '
                           style={{ color:selecIdImage===id? '#f0b51d':'' ,  borderBottom:selecIdImage===id? '4px solid #f0b51d':'' }}> {title} 
                     </motion.li> 
 

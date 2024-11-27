@@ -10,7 +10,7 @@ function Services() {
 
 
   return (
-    <div className=' w-full min-h-screen bg-slate-950 pb-4 mt-[70px] box-border border-0 border-solid border-red-700 ' >
+    <div className=' w-full min-h-screen bg-slate-950 pb-4 mt-[80px] box-border border-0 border-solid border-red-700 ' >
       
      
      

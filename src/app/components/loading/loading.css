@@ -1,7 +1,7 @@
 .lds-facebook {
     /* change color here */
    /* color: #1c4c5b */
-   color:#f0b51d;
+   color:var(--success-color);
   }
   .lds-facebook,
   .lds-facebook div {

@@ -12,7 +12,7 @@ function projets() {
 
 
   return (
-    <div className='w-full min-h-full box-border flex flex-col justify-between items-start mt-[70px] border-0 border-solid border-violet-900 bg-black text-white pb-4'>
+    <div className='w-full min-h-full box-border flex flex-col justify-between items-start mt-[80px] border-0 border-solid border-violet-900 bg-black text-white pb-4'>
 
         {/* <div className='w-full min-h-screen box-border flex flex-col  mb-10 '> */}
         {/* <div className='w-full h-[calc(100vh-140px)] flex-col justify-center box-border items-center border-4 border-solid border-red-800 relative '>

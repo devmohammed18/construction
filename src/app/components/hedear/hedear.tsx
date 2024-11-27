@@ -13,7 +13,7 @@ const [toggle,setToggle]=useState<boolean>(true);
     <div className={styles.hedear} >
            <div className='sm:w-full sm:mx-3 md:w-full md:mx-5 z-50 w-4/5 flex justify-between items-center border-0 border-solid border-red-950 transition-all duration-300' >
                {/********************************** 1-Logo **********************************/}
-               <div className='flex'> <h1 className='text-3xl  text-[var(--secondary-color)] capitalize font-Poppins font-[600] '>construction</h1><span className='text-3xl text-red-700 uppercase font-Poppins font-[700]' >mr</span> </div>
+               <div className='flex'> <h1 className='text-3xl  text-[var(--secondary-color)] capitalize font-Poppins font-[600] '>construction</h1><span className='text-3xl text-[var(--treed-color)] uppercase font-Poppins font-[700]' >mr</span> </div>
            
             {/* <div 
              className={`${styles.linksWapper} font-roboto `}

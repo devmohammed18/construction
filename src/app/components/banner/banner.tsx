@@ -36,7 +36,7 @@ setChildrenVisible(true)
                 className='sm:w-full w-2/5 h-full flex justify-center bg-slate-950 absolute top-0 left-0 opacity-40 border-r-2 border-r-solid border-gray-500 ' >
                 {childrenVisible && <motion.h1 
                     variants={variantsBannerChildrens}
-                    className='text-4xl text-white absolute top-1/2 font-open_sans font-bold capitalize '>{titleBanner}</motion.h1>}
+                    className='text-4xl text-[var(--secondary-color)] absolute top-1/2 font-open_sans font-bold capitalize '>{titleBanner}</motion.h1>}
             </motion.div>
 
     

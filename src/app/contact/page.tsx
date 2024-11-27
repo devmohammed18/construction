@@ -10,7 +10,7 @@ function Contact() {
 
   return (
    
-   <div className='w-full min-h-screen bg-slate-500 mt-[70px] border-0 border-sold border-red-700' >
+   <div className='w-full min-h-screen bg-slate-500 mt-[80px] border-0 border-sold border-red-700' >
       <div className='w-full h-full box-border flex flex-col justify-center items-center bg-black '>
         
           {/* <div className='w-full h-screen  flex justify-center items-center border-0 border-solid border-red-800 '>

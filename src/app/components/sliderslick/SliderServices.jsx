@@ -53,8 +53,8 @@ const arrowRef=useRef();
 
       </Slider>
       
-      <div className='absolute top-[45%] left-0  border border-solid border-white text-4xl py-2 bg-yellow-500 rounded-r-lg opacity-40 transition-all duration-300 hover:opacity-100 hover:pr-3' ><IoIosArrowBack    onClick={()=>arrowRef.current.slickPrev()}/></div>
-      <div className='absolute top-[45%] right-0 border border-solid border-white text-4xl py-2 bg-yellow-500 rounded-l-lg opacity-40 transition-all duration-300 hover:opacity-100 hover:pl-3' ><IoIosArrowForward onClick={()=>arrowRef.current.slickNext()} /></div>
+      <div className='absolute top-[45%] left-0  border border-solid border-white text-4xl py-2 bg-[var(--treed-color)] rounded-r-lg opacity-40 transition-all duration-300 hover:opacity-100 hover:pr-3' ><IoIosArrowBack    onClick={()=>arrowRef.current.slickPrev()}/></div>
+      <div className='absolute top-[45%] right-0 border border-solid border-white text-4xl py-2 bg-[var(--treed-color)] rounded-l-lg opacity-40 transition-all duration-300 hover:opacity-100 hover:pl-3' ><IoIosArrowForward onClick={()=>arrowRef.current.slickNext()} /></div>
     
     </div>
   );

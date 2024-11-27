@@ -1,5 +1,6 @@
 
 import { typeDataNav } from "@/app/utils/type/type"
+
 export const dataNav:typeDataNav[]=[
 
     {id:1,

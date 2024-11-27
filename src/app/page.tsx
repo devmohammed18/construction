@@ -6,8 +6,7 @@ function page() {
   return (
     <div>
        <Accueil/>
-
-    </div>
+   </div>
   )
 }
 

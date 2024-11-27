@@ -12,7 +12,7 @@ function Accueil() {
 
     
 
-        <div className='flex justify-center items-center w-full h-[calc(100vh-70px)] top-[70px]  bg-black relative '>
+        <div className='flex justify-center items-center w-full h-[calc(100vh-70px)] top-[80px]  bg-black relative '>
           <Image className='w-full h-full object-cover opacity-60' src={image_accueil} alt='image_accueil'   /> 
         
          </div>

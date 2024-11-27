@@ -8,9 +8,8 @@ function BodyServices() {
   
     const [toggle,setToggle]=useState(false)
     const [show,setShow]=useState(0)
- //----------------- animation -----------
-   //-------------- animation scroll -------
-   
+
+
    const refs=useRef<any>([]);
 
   //------------------- animation ---------
@@ -37,11 +36,11 @@ function BodyServices() {
                 style={{scale:scaleProgress,opacity:opacityProgress,transition:'opacity .3s ease-in'}}
                 key={index} className='sm:h-full  sm:w-full md:h-full md:w-full w-1/2 h-full  border-0 border-solid border-yellow-600 flex flex-col justify-start items-start  opacity-85  hover:opacity-100 ' >
                 <div className=' w-full mb-5 mt-2  flex justify-between items-end border-0 border-solid border-white '>
-                        <h1 className='mx-4  text-2xl text-white font-open_sans uppercase border-b-2 border-b-solid border-b-red-800 pb-2 ' > {item.title}</h1><br />
+                        <h1 className='mx-4  text-2xl text-white font-open_sans uppercase border-b-2 border-b-solid border-b-[var(--treed-color)] pb-2 ' > {item.title}</h1><br />
                         
                         {index===show && toggle?
-                        <span className='hidden sm:flex  justify-center items-center md:flex text-white text-2xl mx-4 w-8 h-8  bg-yellow-500 opacity-70 rounded-full transition-all duration-300 hover:opacity-100 ' onClick={()=>{setToggle(false), console.log('Up------')}} ><IoIosArrowUp/> </span> 
-                        :<span className='hidden sm:flex justify-center items-center md:flex  text-white text-2xl mx-4 w-8 h-8 bg-yellow-500 opacity-70 rounded-full transition-all duration-300 hover:opacity-100 ' onClick={()=>{setToggle(true),setShow(index),console.log('down------')}}><IoIosArrowDown /></span>
+                        <span className='hidden sm:flex  justify-center items-center md:flex text-white text-2xl mx-4 w-8 h-8  bg-[var(--treed-color)] opacity-70 rounded-full transition-all duration-300 hover:opacity-100 ' onClick={()=>{setToggle(false), console.log('Up------')}} ><IoIosArrowUp/> </span> 
+                        :<span className='hidden sm:flex justify-center items-center md:flex  text-white text-2xl mx-4 w-8 h-8 bg-[var(--treed-color)] opacity-70 rounded-full transition-all duration-300 hover:opacity-100 ' onClick={()=>{setToggle(true),setShow(index),console.log('down------')}}><IoIosArrowDown /></span>
                         }
                 </div>
                 

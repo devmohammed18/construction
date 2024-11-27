@@ -144,7 +144,7 @@ const  handleSubmit=async (e:any)=>{
     <form ref={refMessgeValidation} onSubmit={handleSubmit} className=' w-full h-full box-border border-0 border-solid border-green-800 ' >
                  {/* title Th forme */}
           <div className='w-full flex justify-center items-center my-4'>
-               <h1 className='sm:text-center sm:text-xl text-3xl pb-6 border-b-2 border-b-solid border-b-yellow-500  text-yellow-500'>Demande de soumission et d'information</h1>
+               <h1 className='sm:text-center sm:text-xl text-3xl pb-6 border-b-2 border-b-solid border-b-[var(--treed-color)]  text-[var(--secondary-color)]'>Demande de soumission et d'information</h1>
            </div>
 
                  {/*   Les Input : name and @email and sdress ....  */}
@@ -159,10 +159,10 @@ const  handleSubmit=async (e:any)=>{
                 <motion.button 
                     whileTap={{scale:1.5,transition:{duration:1}}}
                     
-                    type='submit'  className='text-xl text-white bg-green-800 py-2 px-3 rounded-xl capitalize '>envoyer</motion.button> 
+                    type='submit'  className='text-lg text-white bg-[var(--success-color)] py-2 px-4 rounded-full capitalize '>envoyer</motion.button> 
                 <motion.button 
                     whileTap={{scale:1.5,transition:{duration:1}}}
-                onClick={handleCancel} className='text-xl text-white bg-red-800 py-2 px-3 rounded-xl capitalize '>cancel</motion.button> 
+                onClick={handleCancel} className='text-lg text-white bg-[--treed-color] py-2 px-4 rounded-full capitalize '>cancel</motion.button> 
         </div>
 
     </form>
