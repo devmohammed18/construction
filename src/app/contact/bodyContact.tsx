@@ -13,10 +13,10 @@ function BodyContact() {
   return (
 
     <div  className='sm:flex-col-reverse sm:justify-center sm:items-center md:flex-col-reverse md:justify-center md:items-center sm:p-0 md:p-0
-    w-full  flex justify-center items-centre bg-slate-900 border-0 border-red-900 border-solid p-4 relative '>
+    w-full  flex justify-center gap-2 items-centre bg-slate-900 border-0 border-red-900 border-solid p-4 relative '>
       
         {/* information the company Tel and @email */}
-        <div className='sm:w-full md:w-full w-2/5 flex  justify-center items-center pt-10 gap-5  border-2 border-solid  border-[var(--treed-color)]  '>
+        <div className='sm:w-full md:w-full w-2/5 flex  justify-center items-center pt-10 pb-5 gap-5 bg-[var(--primary-color)]  border-0 border-solid  border-[var(--treed-color)]  '>
              <div className='flex flex-col justify-center items-start gap-5 ' >
                 <h1 className='text-4xl text-[var(--secondary-color)] pb-5 border-b-2 border-b-solid border-b-[var(--treed-color)]  capitalize' >contactez nous</h1>
                 <div className="flex justify-start items-center gap-3 text-2xl text-[var(--treed-color)] pb-3 ">
@@ -37,7 +37,7 @@ function BodyContact() {
         
         {/* The form (Formulaire) */}
         <div className='sm:w-full sm:items-start sm:h-full  md:w-full md:items-start md:h-full 
-                      w-3/5 min-h-full flex items-center justify-center  box-border border-2 border-solid border-[var(--treed-color)]  '>
+                      w-3/5 min-h-full flex items-center justify-center  box-border bg-[var(--primary-color)] border-0 border-solid border-[var(--treed-color)] pb-5  '>
              
            
             

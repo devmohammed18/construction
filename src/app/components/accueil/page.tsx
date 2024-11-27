@@ -8,7 +8,7 @@ import { motion } from 'framer-motion'
  
 function Accueil() {
   return (
-    <div className='w-full min-h-screen  bg-slate-500 opacity-70 hover:opacity-100 hover:cursor-pointer ' >
+    <div className='w-full min-h-screen mb-4  bg-slate-500 opacity-70  hover:opacity-100 hover:cursor-pointer ' >
 
     
 
