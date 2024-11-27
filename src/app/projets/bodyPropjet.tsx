@@ -51,7 +51,7 @@ function BodyPropjet() {
     //  [dataSelect])
 
   return (
-    <div className='sm:h-full w-full min-h-[70px] border-0 border-solid flex-col justify-center items-center border-yellow-600 cursor-pointer relative ' >
+    <div className='sm:h-full w-full min-h-[70px] border-0 border-solid flex-col justify-center items-center border-[var(--treed-color)] cursor-pointer relative ' >
 
              {/* 1- on referance au ce div pour apparatre just la partie de liste et les images de projet  */}
         <div ref={refTitles} className="w-16 h-14 border-0 border-red-400 border-solid -top-16 z-50 absolute" ></div> 
@@ -69,8 +69,8 @@ function BodyPropjet() {
                         variants={variantsListChildrens}
                         
                         onClick={()=>{setFiltreTitle(title) ;setSelectIdImage(id); handelScroll() }}  
-                        className='text-2xl  font-roboto  capitalize p-4  border-b-4 border-b-solid border-b-transparent hover:border-b-[var(--primary-color)] hover:text-[var(--primary-color)]  '
-                          style={{ color:selecIdImage===id? '#f0b51d':'' ,  borderBottom:selecIdImage===id? '4px solid #f0b51d':'' }}> {title} 
+                        className='text-2xl  font-roboto  capitalize p-4  border-b-4 border-b-solid border-b-transparent hover:border-b-[var(--treed-color)] hover:text-[var(--treed-color)] hover:text-2xl '
+                          style={{ color:selecIdImage===id? 'var(--treed-color)':'' ,  borderBottom:selecIdImage===id? '4px solid var(--treed-color)':'' }}> {title} 
                     </motion.li> 
 
                   )) }            
@@ -144,7 +144,7 @@ function BodyPropjet() {
 
 
               className='sm:w-11/12 w-4/5 h-[450px] top-0 relative bg-slate-500 '>
-                <span onClick={()=>setZome(false)} className='  text-red-600 text-3xl top-5 right-5 absolute  '><LiaTimesCircleSolid /></span>
+                <span onClick={()=>setZome(false)} className='  text-[var(--treed-color)] text-3xl top-5 right-5 absolute  '><LiaTimesCircleSolid /></span>
                 <Image className='w-full h-full  z-20 '  src={show}   alt=''  />
             </motion.div>
         </div> )  }   
